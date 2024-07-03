@@ -1,9 +1,5 @@
 name: Attach Debug APKs To Release
-
-on:
-  release:
-    types:
-      - published
+on: [workflow_dispatch]
 
 jobs:
   attach-apks:
